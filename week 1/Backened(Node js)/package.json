@@ -1,0 +1,16 @@
+{
+  "name": "week_1_backened",
+  "version": "1.0.0",
+  "description": "Week 1 backened",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vipin kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
