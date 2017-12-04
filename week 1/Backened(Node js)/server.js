@@ -5,14 +5,18 @@ var app = express();
 
 
 app.use(morgan('dev'));
+var authors = require('./routes/authors');
 
+app.use('/authors', authors);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : false}));
+
 
 app.get('/',function(req,res)
 {
     res.send('Hello World - Vipin');
 })
+
 
 app.listen(8080,function()
 {
